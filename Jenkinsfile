@@ -28,7 +28,7 @@ pipeline {
               sudo git clone ${REPO_URL} .
 
               echo "Cloned ${REPO_URL} into ${WEBROOT}"
-            REMOTE
+            
           """
         }
       }
